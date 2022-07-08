@@ -1,0 +1,175 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-item a:hover {
+  font-family: "Montserrat", sans-serif;
+  color: chartreuse;
+}
+
+.navbar-brand {
+  height: 50px;
+  width: 100px;
+}
+
+.search {
+  height: 45px;
+  border-radius: 20px 0px 0px 20px;
+  border: 2px chartreuse solid;
+  background-color: transparent;
+  outline: none;
+  border-right: none;
+}
+
+.btn1 {
+  height: 45px;
+  border-radius: 0px 20px 20px 0px;
+  border: 2px chartreuse solid;
+  background-color: transparent;
+  outline: none;
+  box-shadow: none;
+  /* border-left: 1px solid chartreuse; */
+  background-color: chartreuse;
+  transition: all 0.4s;
+}
+
+.btn1:hover {
+  background-color: green;
+  border: 2px solid green;
+}
+
+.bag:hover {
+  color: chartreuse;
+}
+.bag {
+  cursor: pointer;
+}
+
+.navbar-toggler {
+  font-size: 30px;
+  color: black;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.main {
+  background: url("images/pic3.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+.mbtn1 {
+  border-radius: 50px;
+  height: 50px;
+  width: 25%;
+  color: white;
+  background-color: chartreuse;
+  border: none;
+  outline: none;
+}
+.mbtn1:hover {
+  background-color: green;
+}
+
+.mbtn2 {
+  border-radius: 50px;
+  height: 50px;
+  width: 25%;
+  color: chartreuse;
+  background-color: white;
+  border: none;
+  outline: none;
+}
+.mbtn2:hover {
+  background-color: green;
+  color: white;
+}
+
+.about {
+  background: url("images/banana.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+.line {
+  width: 40%;
+  background-color: green;
+  height: 5px;
+}
+.organic {
+  background-color: green;
+  width: 100%;
+  height: 60vh;
+}
+
+.line2 {
+  width: 40%;
+  background-color: white;
+  height: 5px;
+  display: inline-block;
+}
+
+.icon {
+  color: chartreuse;
+}
+
+.star {
+  color: gold;
+}
+
+.must {
+  margin-top: 30px;
+  background-color: chartreuse;
+  border: none;
+  /* width: 30%; */
+  width: 60%;
+  height: 50px;
+}
+
+.must:focus {
+  outline: none;
+  box-shadow: none;
+  border: 0;
+  background-color: green;
+}
+.must:hover {
+  background-color: green;
+}
+
+.discount {
+  background-color: green;
+  height: 20vh;
+}
+
+.offers .jesus:hover {
+  background-color: green;
+  color: white;
+}
+
+.cart {
+  height: 100%;
+  width: 100%;
+}
+
+.rounded {
+  width: 100%;
+  background-size: cover;
+  height: 100%;
+}
+
+.contact {
+  background-color: chartreuse;
+  width: 100%;
+  height: 50vh;
+}
